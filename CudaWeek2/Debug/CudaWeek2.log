@@ -1,0 +1,69 @@
+﻿Build started 16/10/2017 12:32:38.
+     1>Project "C:\Users\b4014242\Desktop\Work\CudaWeek2\CudaWeek2\CudaWeek2.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c C:\Users\b4014242\Desktop\Work\CudaWeek2\CudaWeek2\cuda_template.cu 
+       CudaBuild:
+         Compiling CUDA source file cuda_template.cu...
+         cmd.exe /C "C:\Users\b4014242\AppData\Local\Temp\tmpb69c1470116c4ad7aa10c8a276350ea5.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\cuda_template.cu.obj "C:\Users\b4014242\Desktop\Work\CudaWeek2\CudaWeek2\cuda_template.cu"
+         
+         C:\Users\b4014242\Desktop\Work\CudaWeek2\CudaWeek2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\cuda_template.cu.obj "C:\Users\b4014242\Desktop\Work\CudaWeek2\CudaWeek2\cuda_template.cu" 
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29412): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29723): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29789): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29969): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(30173): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(50105): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(15165): warning : integer operation result is out of range
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29412): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29723): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29789): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29969): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(30173): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29412): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29723): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29789): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29969): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(30173): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29412): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29723): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29789): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29969): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(30173): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(15517): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29412): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29723): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29789): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29969): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(30173): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29412): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29723): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29789): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29969): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(30173): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(15517): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29412): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29723): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29789): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(29969): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(30173): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(37600): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(38086): warning : statement is unreachable
+     1>c:\users\b4014242\desktop\work\cudaweek2\cudaweek2\CImg.h(50105): warning : statement is unreachable
+         cuda_template.cu
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\b4014242\Desktop\Work\CudaWeek2\Debug\CudaWeek2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\b4014242\Desktop\Work\CudaWeek2\Debug\CudaWeek2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\b4014242\Desktop\Work\CudaWeek2\Debug\CudaWeek2.lib" /MACHINE:X86 Debug\cuda_template.cu.obj
+         CudaWeek2.vcxproj -> C:\Users\b4014242\Desktop\Work\CudaWeek2\Debug\CudaWeek2.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\b4014242\Desktop\Work\CudaWeek2\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\b4014242\Desktop\Work\CudaWeek2\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\b4014242\Desktop\Work\CudaWeek2\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2 file(s) copied.
+     1>Done Building Project "C:\Users\b4014242\Desktop\Work\CudaWeek2\CudaWeek2\CudaWeek2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:25.48
